@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="vue.min.js"></script>
+    <!-- <script src="https://npmcdn.com/vue/dist/vue.js"></script>-->
+
+</head>
+<body>
+    <div id="menuDiv">
+        <table style="padding-top:3px;line-height:20px;width:158px;margin-left:-2px;">
+            <tr v-for="menu in menus " :style='{display:menu.display}' >
+                <td :id='"td"+menu.id' style="padding-left:12px;cursor:pointer;color:#60c4b0;" v-on:mouseover="showBgColor(menu);" v-on:mouseout="hideBgColor(menu);" v-on:click="showMenuMore(menu);">
+                <img id="preImg1" src="Img/menu/ico1_2.png" style="width:12px;height:12px;" align="absmiddle" /><a style="padding-left:11px;">{{menu.name}}</a><img id="imgMenu1" src="Img/up.png" style="width:6px;height:4px;padding-left:11px;cursor:pointer;" align="absmiddle" />
+                </td>
+            </tr>
+             
+        </table>
+          
+    </div>
+    
+    
+    <script>
+        new Vue({
+              el: '#menuDiv',
+              data: {
+                        menu: {
+                           id: 0, 
+                            name: '',
+                            subitem: false,
+                            isUse: false,
+                            menuImg:null,
+                        },
+                        menus: [{
+                            id: 1, 
+                            name: '一体化总览',
+                            subitem: false,
+                            display:"block",
+                            isUse: true,
+                            menuImg:'Img/menu/ico2_1.png',
+                            click:function(){
+                                alert("sss1");
+                            }
+                        }, {
+                            id: 2, 
+                            name: '生产监控',
+                            subitem: false,
+                            display:"block",
+                            isUse: true,
+                            menuImg:'Img/menu/ico2_1.png',
+                            click:function(){
+                                alert("sss2");
+                            }
+                        }, {
+                            id: '3', 
+                            name: '厂站管理',
+                            subitem: true,
+                            display:"none",
+                            isUse: true,
+                            menuImg:'Img/menu/ico2_1.png',
+                            click:function(){
+                                alert("sss3");
+                            }
+                        }, {
+                            id: 4, 
+                            name: '水厂水质',
+                            subitem: true,
+                            display:"none",
+                            isUse: true,
+                            menuImg:'Img/menu/ico2_1.png',
+                            click:function(){
+                                alert("sss4");
+                            }
+                        }, {
+                            id: 5, 
+                            name: '管网管理',
+                            subitem: false,
+                            display:"block",
+                            isUse: true,
+                            menuImg:'Img/menu/ico2_1.png',
+                            click:function(){
+                                alert("sss4");
+                            }
+                            
+                        }]
+                    },
+              methods: {
+                 addBook: function() {
+                        //计算书的id
+                        this.book.id = this.books.length + 1;
+                        this.books.push(this.book);
+                        //将input中的数据重置
+                        this.book = '';
+                        //this.book.name = 'test';
+                    },
+                 click :function(e){
+                     e.click(); 
+                    }
+                  //显示背景颜色
+                ,showBgColor: function(obj) { 
+                        
+                    //console.log(this.$el);
+                    document.getElementById('td'+obj.id).style.backgroundImage = "url(Img/menu_secong_bg_03.jpg)"; 
+                    }
+                    //隐藏背景颜色        
+                ,hideBgColor :function (obj) {
+                         document.getElementById('td'+obj.id).style.backgroundImage = ""; 
+                    }
+                ,showMenuMore:function(obj){
+                    console.log(obj);
+                }
+              }
+            })
+        
+         
+        
+    </script>
+</body>
+</html>
