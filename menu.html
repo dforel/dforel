@@ -7,19 +7,62 @@
     <title>Document</title>
     <script src="vue.min.js"></script>
     <!-- <script src="https://npmcdn.com/vue/dist/vue.js"></script>-->
-
+    <style>
+        .menu-first{
+            padding-left:12px;
+            color:#60c4b0;
+            cursor:pointer;
+        }
+        .menu-a-first{
+            padding-left:11px;
+        }
+        .menu-preimg-first{
+            width:12px;
+            height:12px;
+        }
+        .menu-endimg-first{ 
+            position: relative;
+            width:6px;
+            height:4px; 
+            float: right;
+            top: 5px;
+            right: 10px;
+        }
+        
+        
+        .menu-second{
+            padding-left:34px;
+            cursor:pointer;
+            color:#60c4b0;
+        }
+        .menu-a-second{
+            padding-left:11px;
+        }
+        .menu-preimg-second{
+            width:4px;
+            height:8px;
+        }
+    </style>
 </head>
 <body>
-    <div id="menuDiv">
-        <table style="padding-top:3px;line-height:20px;width:158px;margin-left:-2px;">
-            <tr v-for="menu in menus " :style='{display:menu.display}' >
-                <td :id='"td"+menu.id' style="padding-left:12px;cursor:pointer;color:#60c4b0;" v-on:mouseover="showBgColor(menu);" v-on:mouseout="hideBgColor(menu);" v-on:click="showMenuMore(menu);">
-                <img id="preImg1" src="Img/menu/ico1_2.png" style="width:12px;height:12px;" align="absmiddle" /><a style="padding-left:11px;">{{menu.name}}</a><img id="imgMenu1" src="Img/up.png" style="width:6px;height:4px;padding-left:11px;cursor:pointer;" align="absmiddle" />
-                </td>
-            </tr>
-             
-        </table>
-          
+    <div id="menuDiv" style="width:160px">
+         
+            <div v-for="menu in menus " >
+                <div :id='"menu"+menu.id' class="menu-first"  v-on:mouseover="showBgColor(menu);" v-on:mouseout="hideBgColor(menu);" v-on:click="showMenuMore(menu);"> 
+                    <img  :id='"preImg"+menu.id' :src="menu.menuImg" class="menu-preimg-first" align="absmiddle" />  
+                    <a class="menu-a-first">{{menu.name}}</a> 
+                    <img   :id='"imgMenu"+menu.id' src="Img/down.png" class="menu-endimg-first" align="absmiddle" />   
+                </div>
+                <div :style='{"display":menu.menusubdisplay}'>
+                    <div v-for="menusub in menu.child " >
+                        <div :id='"menu"+menusub.id'  class="menu-second" v-on:mouseover="showBgColor(menusub);" v-on:mouseout="hideBgColor(menusub);" v-on:click="showMenuMore(menusub);"> 
+                            <img  :id='"preImg"+menusub.id'  :src="menusub.menuImg"  align="absmiddle" />  
+                            <a  style="padding-left:11px;">{{menusub.name}}</a> 
+                        </div>   
+                    </div> 
+                </div>
+                
+            </div>  
     </div>
     
     
@@ -32,7 +75,16 @@
                             name: '',
                             subitem: false,
                             isUse: false,
-                            menuImg:null,
+                            menuImg:null, 
+                            child:[]
+                        },
+                        menusub: {
+                           id: 0, 
+                            name: '',
+                            subitem: false,
+                            isUse: false, 
+                            display:"",
+                            menuImg:'Img/ico_second_1.png', 
                         },
                         menus: [{
                             id: 1, 
@@ -41,6 +93,7 @@
                             display:"block",
                             isUse: true,
                             menuImg:'Img/menu/ico2_1.png',
+                            menusubdisplay:"block",
                             click:function(){
                                 alert("sss1");
                             }
@@ -51,28 +104,32 @@
                             display:"block",
                             isUse: true,
                             menuImg:'Img/menu/ico2_1.png',
+                            menusubdisplay:"block",
+                            child:[
+                                        {
+                                    id: '3', 
+                                    name: '厂站管理',
+                                    subitem: true,
+                                    display:"block",
+                                    isUse: true, 
+                                    menuImg:'Img/ico_second_1.png', 
+                                    click:function(){
+                                        alert("sss3");
+                                    }
+                                }, {
+                                    id: 4, 
+                                    name: '水厂水质',
+                                    subitem: true,
+                                    display:"block",
+                                    isUse: true, 
+                                    menuImg:'Img/ico_second_1.png', 
+                                    click:function(){
+                                        alert("sss4");
+                                    }
+                                } 
+                            ],
                             click:function(){
                                 alert("sss2");
-                            }
-                        }, {
-                            id: '3', 
-                            name: '厂站管理',
-                            subitem: true,
-                            display:"none",
-                            isUse: true,
-                            menuImg:'Img/menu/ico2_1.png',
-                            click:function(){
-                                alert("sss3");
-                            }
-                        }, {
-                            id: 4, 
-                            name: '水厂水质',
-                            subitem: true,
-                            display:"none",
-                            isUse: true,
-                            menuImg:'Img/menu/ico2_1.png',
-                            click:function(){
-                                alert("sss4");
                             }
                         }, {
                             id: 5, 
@@ -81,13 +138,34 @@
                             display:"block",
                             isUse: true,
                             menuImg:'Img/menu/ico2_1.png',
+                            menusubdisplay:"block",
                             click:function(){
                                 alert("sss4");
                             }
                             
                         }]
                     },
+            created:function () {
+                /*for(var i=0;i<this.menus.length;i++){
+                         if(this.menus[i].subitem){
+                             this.menus[i].display = "none";
+                             this.menus[i].imgWidth = 4;
+                             this.menus[i].imgHeight = 8;
+                             this.menus[i].paddingleft = 34;
+                             this.menus[i].menuImg = "Img/ico_second_1.png";
+                         }else{
+                             this.menus[i].display = "block";
+                             this.menus[i].imgWidth = 12;
+                             this.menus[i].imgHeight = 12;
+                             this.menus[i].paddingleft = 12;
+                         }
+                     }*/
+	          },
               methods: {
+                 initSubitem:function(){
+                        //this.data.menus
+                     
+                 },
                  addBook: function() {
                         //计算书的id
                         this.book.id = this.books.length + 1;
@@ -103,15 +181,24 @@
                 ,showBgColor: function(obj) { 
                         
                     //console.log(this.$el);
-                    document.getElementById('td'+obj.id).style.backgroundImage = "url(Img/menu_secong_bg_03.jpg)"; 
+                    document.getElementById('menu'+obj.id).style.backgroundImage = "url(Img/menu_secong_bg_03.jpg)"; 
                     }
                     //隐藏背景颜色        
                 ,hideBgColor :function (obj) {
-                         document.getElementById('td'+obj.id).style.backgroundImage = ""; 
+                         document.getElementById('menu'+obj.id).style.backgroundImage = ""; 
                     }
                 ,showMenuMore:function(obj){
-                    console.log(obj);
+                     
+                    
                 }
+                , closeChildMenu:function(obj){
+                    
+                    
+                    
+                    
+                    
+                }
+                  
               }
             })
         
