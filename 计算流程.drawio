@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-10T12:20:01.345Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.43" etag="aWecb27X6V2kn2JrhPdU" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-10T12:20:20.325Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.43" etag="hpXQ_MMYltx7YnoyrUgH" version="22.0.4" type="github">
   <diagram name="第 1 页" id="qO63Ez1emeR1Fj4lNttb">
     <mxGraphModel dx="1186" dy="729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -132,8 +132,8 @@
         </mxCell>
         <mxCell id="egavwRmLQPbvetfOZlf4-44" value="返回生成成功" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="1050" y="370" as="sourcePoint" />
-            <mxPoint x="819" y="370" as="targetPoint" />
+            <mxPoint x="930.5" y="390" as="sourcePoint" />
+            <mxPoint x="819" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="egavwRmLQPbvetfOZlf4-46" value="返回计算结果" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
@@ -164,6 +164,12 @@
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="933" y="620" as="sourcePoint" />
             <mxPoint x="810" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="egavwRmLQPbvetfOZlf4-52" value="前端结果渲染" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1053" y="370" as="sourcePoint" />
+            <mxPoint x="930" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
