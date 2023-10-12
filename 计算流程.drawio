@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-12T01:23:26.499Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.43" etag="qgaf8QqohyJRhZazRXVL" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-12T01:39:55.292Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.43" etag="VojeI1b6rQLwoAA0ehSU" version="22.0.4" type="github">
   <diagram name="第 1 页" id="qO63Ez1emeR1Fj4lNttb">
     <mxGraphModel dx="988" dy="608" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -172,14 +172,8 @@
             <mxPoint x="930" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="egavwRmLQPbvetfOZlf4-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="egavwRmLQPbvetfOZlf4-53" target="egavwRmLQPbvetfOZlf4-54">
+        <mxCell id="egavwRmLQPbvetfOZlf4-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="egavwRmLQPbvetfOZlf4-75" target="egavwRmLQPbvetfOZlf4-55">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="egavwRmLQPbvetfOZlf4-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="egavwRmLQPbvetfOZlf4-53" target="egavwRmLQPbvetfOZlf4-55">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="egavwRmLQPbvetfOZlf4-53" value="物联网" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="694" y="800" width="106" height="330" as="geometry" />
         </mxCell>
         <mxCell id="egavwRmLQPbvetfOZlf4-63" value="实时数据" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="egavwRmLQPbvetfOZlf4-54" target="egavwRmLQPbvetfOZlf4-59">
           <mxGeometry relative="1" as="geometry" />
@@ -199,7 +193,7 @@
           <mxGeometry x="850" y="980" width="80" height="150" as="geometry" />
         </mxCell>
         <mxCell id="egavwRmLQPbvetfOZlf4-58" value="低碳应用" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1360" y="840" width="120" height="290" as="geometry" />
+          <mxGeometry x="1324.17" y="840" width="120" height="290" as="geometry" />
         </mxCell>
         <mxCell id="egavwRmLQPbvetfOZlf4-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="egavwRmLQPbvetfOZlf4-59" target="egavwRmLQPbvetfOZlf4-55">
           <mxGeometry relative="1" as="geometry" />
@@ -213,22 +207,40 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="egavwRmLQPbvetfOZlf4-59" value="flink计算" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1049" y="855" width="120" height="60" as="geometry" />
+          <mxGeometry x="1013.17" y="855" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="egavwRmLQPbvetfOZlf4-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="egavwRmLQPbvetfOZlf4-59" target="egavwRmLQPbvetfOZlf4-69">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1169" y="885" as="sourcePoint" />
-            <mxPoint x="1360" y="985" as="targetPoint" />
+            <mxPoint x="1133.17" y="885" as="sourcePoint" />
+            <mxPoint x="1324.17" y="985" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="egavwRmLQPbvetfOZlf4-69" value="消息队列" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1220" y="830" width="80" height="170" as="geometry" />
+          <mxGeometry x="1184.17" y="830" width="80" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="egavwRmLQPbvetfOZlf4-72" value="AWS云" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="707" y="830" width="83" height="70" as="geometry" />
+        <mxCell id="egavwRmLQPbvetfOZlf4-74" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="590" y="790" width="106" height="330" as="geometry" />
         </mxCell>
-        <mxCell id="egavwRmLQPbvetfOZlf4-73" value="腾讯云" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="707" y="1020" width="83" height="70" as="geometry" />
+        <mxCell id="egavwRmLQPbvetfOZlf4-53" value="物联网" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="egavwRmLQPbvetfOZlf4-74">
+          <mxGeometry width="106" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="egavwRmLQPbvetfOZlf4-72" value="AWS云" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="egavwRmLQPbvetfOZlf4-74">
+          <mxGeometry x="13" y="30" width="83" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="egavwRmLQPbvetfOZlf4-73" value="腾讯云" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="egavwRmLQPbvetfOZlf4-74">
+          <mxGeometry x="13" y="220" width="83" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="egavwRmLQPbvetfOZlf4-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="egavwRmLQPbvetfOZlf4-53" target="egavwRmLQPbvetfOZlf4-75">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="696" y="955" as="sourcePoint" />
+            <mxPoint x="850" y="1055" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="egavwRmLQPbvetfOZlf4-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="egavwRmLQPbvetfOZlf4-75" target="egavwRmLQPbvetfOZlf4-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="egavwRmLQPbvetfOZlf4-75" value="数据转换&lt;br&gt;（采集器）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="716" y="930" width="83" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
