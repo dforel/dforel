@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-12T02:55:15.256Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.43" etag="X4LfJ8uwlvZvmqqFbPJS" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-12T05:46:23.590Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.43" etag="jjUvQYg_mZXl7SOWV0wG" version="22.0.4" type="github">
   <diagram name="第 1 页" id="qO63Ez1emeR1Fj4lNttb">
     <mxGraphModel dx="1186" dy="729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
@@ -373,6 +373,21 @@
         </mxCell>
         <mxCell id="egavwRmLQPbvetfOZlf4-123" value="视频汇聚" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2180" y="610" width="76" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="egavwRmLQPbvetfOZlf4-125" value="企业管理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2180" y="650" width="76" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="egavwRmLQPbvetfOZlf4-126" value="天气环境" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2280" y="490" width="76" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="egavwRmLQPbvetfOZlf4-127" value="应急系统" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2280" y="530" width="76" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="egavwRmLQPbvetfOZlf4-128" value="水利水务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2280" y="570" width="76" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="egavwRmLQPbvetfOZlf4-129" value="其他系统" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2280" y="610" width="76" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
