@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-12T02:37:13.863Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.43" etag="xIrWtWsmI9lwAXOdsk_9" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-12T02:41:56.394Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.43" etag="OA8zhcFSForRICq508Pg" version="22.0.4" type="github">
   <diagram name="第 1 页" id="qO63Ez1emeR1Fj4lNttb">
-    <mxGraphModel dx="988" dy="608" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+    <mxGraphModel dx="1186" dy="729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -258,34 +258,34 @@
           <mxGeometry x="1674" y="151" width="76" height="30" as="geometry" />
         </mxCell>
         <mxCell id="egavwRmLQPbvetfOZlf4-83" value="工单概览" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1760" y="151" width="76" height="30" as="geometry" />
+          <mxGeometry x="1763" y="151" width="76" height="30" as="geometry" />
         </mxCell>
         <mxCell id="egavwRmLQPbvetfOZlf4-84" value="智能监控" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1846" y="151" width="76" height="30" as="geometry" />
+          <mxGeometry x="1852" y="151" width="76" height="30" as="geometry" />
         </mxCell>
         <mxCell id="egavwRmLQPbvetfOZlf4-85" value="智慧管养" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1674.17" y="191" width="76" height="30" as="geometry" />
         </mxCell>
         <mxCell id="egavwRmLQPbvetfOZlf4-86" value="工地管理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1760" y="191" width="76" height="30" as="geometry" />
+          <mxGeometry x="1763" y="191" width="76" height="30" as="geometry" />
         </mxCell>
         <mxCell id="egavwRmLQPbvetfOZlf4-87" value="三防专题" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1846" y="191" width="76" height="30" as="geometry" />
+          <mxGeometry x="1852" y="191" width="76" height="30" as="geometry" />
         </mxCell>
         <mxCell id="egavwRmLQPbvetfOZlf4-88" value="应急疏散" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1930" y="191" width="76" height="30" as="geometry" />
+          <mxGeometry x="1941" y="191" width="76" height="30" as="geometry" />
         </mxCell>
         <mxCell id="egavwRmLQPbvetfOZlf4-89" value="应急防汛" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2015" y="191" width="76" height="30" as="geometry" />
+          <mxGeometry x="2030" y="191" width="76" height="30" as="geometry" />
         </mxCell>
         <mxCell id="egavwRmLQPbvetfOZlf4-90" value="党群服务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1674.17" y="236" width="76" height="30" as="geometry" />
         </mxCell>
         <mxCell id="egavwRmLQPbvetfOZlf4-91" value="智慧设施" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1760" y="236" width="76" height="30" as="geometry" />
+          <mxGeometry x="1763" y="236" width="76" height="30" as="geometry" />
         </mxCell>
         <mxCell id="egavwRmLQPbvetfOZlf4-92" value="环境监测" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1846" y="236" width="76" height="30" as="geometry" />
+          <mxGeometry x="1852" y="236" width="76" height="30" as="geometry" />
         </mxCell>
         <mxCell id="egavwRmLQPbvetfOZlf4-97" value="IOC-低碳" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingLeft=8;" vertex="1" parent="1">
           <mxGeometry x="1620" y="285" width="490" height="150" as="geometry" />
@@ -294,64 +294,67 @@
           <mxGeometry x="1674" y="311" width="76" height="30" as="geometry" />
         </mxCell>
         <mxCell id="egavwRmLQPbvetfOZlf4-99" value="工单概览" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1760" y="311" width="76" height="30" as="geometry" />
+          <mxGeometry x="1763" y="310" width="76" height="30" as="geometry" />
         </mxCell>
         <mxCell id="egavwRmLQPbvetfOZlf4-100" value="智能监控" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1846" y="311" width="76" height="30" as="geometry" />
+          <mxGeometry x="1852" y="311" width="76" height="30" as="geometry" />
         </mxCell>
         <mxCell id="egavwRmLQPbvetfOZlf4-101" value="智慧管养" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1674.17" y="351" width="76" height="30" as="geometry" />
         </mxCell>
         <mxCell id="egavwRmLQPbvetfOZlf4-102" value="工地管理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1760" y="351" width="76" height="30" as="geometry" />
+          <mxGeometry x="1763" y="351" width="76" height="30" as="geometry" />
         </mxCell>
         <mxCell id="egavwRmLQPbvetfOZlf4-103" value="三防专题" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1846" y="351" width="76" height="30" as="geometry" />
+          <mxGeometry x="1852" y="351" width="76" height="30" as="geometry" />
         </mxCell>
         <mxCell id="egavwRmLQPbvetfOZlf4-104" value="应急疏散" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1930" y="351" width="76" height="30" as="geometry" />
+          <mxGeometry x="1941" y="351" width="76" height="30" as="geometry" />
         </mxCell>
         <mxCell id="egavwRmLQPbvetfOZlf4-105" value="应急防汛" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2015" y="351" width="76" height="30" as="geometry" />
+          <mxGeometry x="2030" y="351" width="76" height="30" as="geometry" />
         </mxCell>
         <mxCell id="egavwRmLQPbvetfOZlf4-106" value="党群服务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1674.17" y="396" width="76" height="30" as="geometry" />
         </mxCell>
         <mxCell id="egavwRmLQPbvetfOZlf4-107" value="智慧设施" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1760" y="396" width="76" height="30" as="geometry" />
+          <mxGeometry x="1763" y="396" width="76" height="30" as="geometry" />
         </mxCell>
         <mxCell id="egavwRmLQPbvetfOZlf4-108" value="环境监测" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1846" y="396" width="76" height="30" as="geometry" />
+          <mxGeometry x="1852" y="396" width="76" height="30" as="geometry" />
         </mxCell>
         <mxCell id="egavwRmLQPbvetfOZlf4-109" value="数据中台" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingLeft=8;" vertex="1" parent="1">
-          <mxGeometry x="1621" y="540" width="374" height="75" as="geometry" />
+          <mxGeometry x="1621" y="540" width="490" height="75" as="geometry" />
         </mxCell>
         <mxCell id="egavwRmLQPbvetfOZlf4-94" value="数据聚合" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1635" y="568" width="76" height="30" as="geometry" />
+          <mxGeometry x="1674.17" y="569.5" width="76" height="30" as="geometry" />
         </mxCell>
         <mxCell id="egavwRmLQPbvetfOZlf4-95" value="接口聚合" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1727" y="568" width="76" height="30" as="geometry" />
+          <mxGeometry x="1763" y="570" width="76" height="30" as="geometry" />
         </mxCell>
         <mxCell id="egavwRmLQPbvetfOZlf4-110" value="数据建模" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1818" y="568" width="76" height="30" as="geometry" />
+          <mxGeometry x="1852" y="570" width="76" height="30" as="geometry" />
         </mxCell>
         <mxCell id="egavwRmLQPbvetfOZlf4-111" value="数据同步" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1910" y="568" width="76" height="30" as="geometry" />
+          <mxGeometry x="1941" y="570" width="76" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="egavwRmLQPbvetfOZlf4-113" value="数据中台" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingLeft=8;" vertex="1" parent="1">
-          <mxGeometry x="1620" y="635" width="374" height="75" as="geometry" />
+        <mxCell id="egavwRmLQPbvetfOZlf4-113" value="飞渡引擎" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="1620" y="635" width="490" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="egavwRmLQPbvetfOZlf4-114" value="数据聚合" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1634" y="663" width="76" height="30" as="geometry" />
+        <mxCell id="egavwRmLQPbvetfOZlf4-114" value="模型轻量化" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1674" y="670" width="76" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="egavwRmLQPbvetfOZlf4-115" value="接口聚合" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1726" y="663" width="76" height="30" as="geometry" />
+        <mxCell id="egavwRmLQPbvetfOZlf4-115" value="模型管理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1763" y="670" width="76" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="egavwRmLQPbvetfOZlf4-116" value="数据建模" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1817" y="663" width="76" height="30" as="geometry" />
+        <mxCell id="egavwRmLQPbvetfOZlf4-116" value="地理信息管理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1852" y="670" width="76" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="egavwRmLQPbvetfOZlf4-117" value="数据同步" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1909" y="663" width="76" height="30" as="geometry" />
+        <mxCell id="egavwRmLQPbvetfOZlf4-117" value="云渲染" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1941" y="670" width="76" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="egavwRmLQPbvetfOZlf4-118" value="云渲染" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2030" y="670" width="76" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
