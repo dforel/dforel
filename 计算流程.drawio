@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-12T01:39:55.292Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.43" etag="VojeI1b6rQLwoAA0ehSU" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-12T02:21:36.719Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.43" etag="tmpITnqxMFR14V9EaEoW" version="22.0.4" type="github">
   <diagram name="第 1 页" id="qO63Ez1emeR1Fj4lNttb">
     <mxGraphModel dx="988" dy="608" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -241,6 +241,45 @@
         </mxCell>
         <mxCell id="egavwRmLQPbvetfOZlf4-75" value="数据转换&lt;br&gt;（采集器）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="716" y="930" width="83" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="egavwRmLQPbvetfOZlf4-78" value="圳智慧应用服务器" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1410" y="160" width="530" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="egavwRmLQPbvetfOZlf4-81" value="圳智慧数据中台" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1410" y="420" width="530" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="egavwRmLQPbvetfOZlf4-82" value="运营总览" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1444" y="200" width="76" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="egavwRmLQPbvetfOZlf4-83" value="工单概览" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1530" y="200" width="76" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="egavwRmLQPbvetfOZlf4-84" value="智能监控" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1616" y="200" width="76" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="egavwRmLQPbvetfOZlf4-85" value="智慧管养" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1444.17" y="240" width="76" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="egavwRmLQPbvetfOZlf4-86" value="工地管理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1530" y="240" width="76" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="egavwRmLQPbvetfOZlf4-87" value="三防专题" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1616" y="240" width="76" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="egavwRmLQPbvetfOZlf4-88" value="应急疏散" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1700" y="240" width="76" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="egavwRmLQPbvetfOZlf4-89" value="应急防汛" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1790" y="240" width="76" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="egavwRmLQPbvetfOZlf4-90" value="党群服务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1444.17" y="285" width="76" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="egavwRmLQPbvetfOZlf4-91" value="智慧设施" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1530" y="285" width="76" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="egavwRmLQPbvetfOZlf4-92" value="环境监测" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1616" y="285" width="76" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
