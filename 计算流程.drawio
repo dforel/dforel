@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-12T02:47:21.431Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.43" etag="eszo75rE620b03szRiy_" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-12T02:52:52.628Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.43" etag="1BK5RJ8Xg2_Dlaa-Vfxn" version="22.0.4" type="github">
   <diagram name="第 1 页" id="qO63Ez1emeR1Fj4lNttb">
     <mxGraphModel dx="1186" dy="729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
@@ -246,10 +246,10 @@
           <mxGeometry x="1600" y="95" width="530" height="350" as="geometry" />
         </mxCell>
         <mxCell id="egavwRmLQPbvetfOZlf4-81" value="圳智慧后端" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingLeft=8;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="1600" y="455" width="530" height="290" as="geometry" />
+          <mxGeometry x="1600" y="455" width="530" height="275" as="geometry" />
         </mxCell>
         <mxCell id="egavwRmLQPbvetfOZlf4-93" value="低代码平台" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="1620" y="500" width="76" height="30" as="geometry" />
+          <mxGeometry x="1621" y="490" width="76" height="30" as="geometry" />
         </mxCell>
         <mxCell id="egavwRmLQPbvetfOZlf4-96" value="IOC-环卫" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingLeft=8;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="1620" y="125" width="490" height="150" as="geometry" />
@@ -355,6 +355,9 @@
         </mxCell>
         <mxCell id="egavwRmLQPbvetfOZlf4-118" value="云渲染" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2030" y="670" width="76" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="egavwRmLQPbvetfOZlf4-119" value="圳智慧后端" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingLeft=8;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="2150" y="455" width="220" height="275" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
