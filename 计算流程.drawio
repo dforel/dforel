@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-12T02:54:36.820Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.43" etag="fp0BXHYsk2beNjuDtqJ4" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-12T02:55:15.256Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.43" etag="X4LfJ8uwlvZvmqqFbPJS" version="22.0.4" type="github">
   <diagram name="第 1 页" id="qO63Ez1emeR1Fj4lNttb">
     <mxGraphModel dx="1186" dy="729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
@@ -243,7 +243,7 @@
           <mxGeometry x="716" y="930" width="83" height="50" as="geometry" />
         </mxCell>
         <mxCell id="egavwRmLQPbvetfOZlf4-78" value="圳智慧-前端" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingLeft=8;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="1600" y="95" width="530" height="350" as="geometry" />
+          <mxGeometry x="1600" y="95" width="770" height="350" as="geometry" />
         </mxCell>
         <mxCell id="egavwRmLQPbvetfOZlf4-81" value="圳智慧后端" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingLeft=8;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="1600" y="455" width="530" height="275" as="geometry" />
@@ -252,7 +252,7 @@
           <mxGeometry x="1621" y="490" width="76" height="30" as="geometry" />
         </mxCell>
         <mxCell id="egavwRmLQPbvetfOZlf4-96" value="IOC-环卫" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingLeft=8;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="1620" y="125" width="490" height="150" as="geometry" />
+          <mxGeometry x="1620" y="125" width="740" height="150" as="geometry" />
         </mxCell>
         <mxCell id="egavwRmLQPbvetfOZlf4-82" value="运营总览" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1674" y="151" width="76" height="30" as="geometry" />
@@ -288,7 +288,7 @@
           <mxGeometry x="1852" y="236" width="76" height="30" as="geometry" />
         </mxCell>
         <mxCell id="egavwRmLQPbvetfOZlf4-97" value="IOC-低碳" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingLeft=8;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="1620" y="285" width="490" height="150" as="geometry" />
+          <mxGeometry x="1620" y="285" width="740" height="150" as="geometry" />
         </mxCell>
         <mxCell id="egavwRmLQPbvetfOZlf4-98" value="运营总览" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1674" y="311" width="76" height="30" as="geometry" />
@@ -356,7 +356,10 @@
         <mxCell id="egavwRmLQPbvetfOZlf4-118" value="云渲染" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2030" y="670" width="76" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="egavwRmLQPbvetfOZlf4-119" value="数据接入" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingLeft=8;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="egavwRmLQPbvetfOZlf4-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="egavwRmLQPbvetfOZlf4-119" target="egavwRmLQPbvetfOZlf4-109">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="egavwRmLQPbvetfOZlf4-119" value="数据接入" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingLeft=8;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="2150" y="455" width="220" height="275" as="geometry" />
         </mxCell>
         <mxCell id="egavwRmLQPbvetfOZlf4-120" value="环卫平台" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
