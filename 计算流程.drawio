@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-13T01:48:26.520Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.43" etag="1p4A9LH2ilZPzBRDcjD7" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-13T03:21:56.986Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.43" etag="szguCFd4sb9sdD67lULg" version="22.0.4" type="github">
   <diagram name="第 1 页" id="qO63Ez1emeR1Fj4lNttb">
     <mxGraphModel dx="1186" dy="729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
@@ -323,20 +323,17 @@
         <mxCell id="egavwRmLQPbvetfOZlf4-113" value="飞渡引擎" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingLeft=8;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="1621" y="555" width="490" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="egavwRmLQPbvetfOZlf4-114" value="模型轻量化" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1675" y="590" width="76" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="egavwRmLQPbvetfOZlf4-115" value="模型管理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1764" y="590" width="76" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="egavwRmLQPbvetfOZlf4-116" value="地理信息管理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="egavwRmLQPbvetfOZlf4-116" value="模型发布" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1853" y="590" width="76" height="30" as="geometry" />
         </mxCell>
         <mxCell id="egavwRmLQPbvetfOZlf4-117" value="云渲染" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1942" y="590" width="76" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="egavwRmLQPbvetfOZlf4-118" value="云渲染" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2031" y="590" width="76" height="30" as="geometry" />
+        <mxCell id="egavwRmLQPbvetfOZlf4-118" value="本地模型处理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1675.17" y="590" width="76" height="30" as="geometry" />
         </mxCell>
         <mxCell id="egavwRmLQPbvetfOZlf4-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="egavwRmLQPbvetfOZlf4-119" target="egavwRmLQPbvetfOZlf4-109">
           <mxGeometry relative="1" as="geometry" />
